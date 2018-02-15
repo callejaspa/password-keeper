@@ -36,6 +36,7 @@ import {
   MatToolbarModule,
   MatTooltipModule
 } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 export const MaterialModules = [
   MatAutocompleteModule,
@@ -76,6 +77,7 @@ export const MaterialModules = [
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
     BrowserAnimationsModule,
     MaterialModules,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
